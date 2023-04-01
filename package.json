@@ -3,7 +3,8 @@
   "displayName": "1am",
   "publisher": "explodingcamera",
   "description": "",
-  "version": "0.0.1",
+  "icon": "icon.png",
+  "version": "0.0.2",
   "scripts": {
     "package": "vsce package --no-dependencies",
     "publish": "vsce publish --no-dependencies"
