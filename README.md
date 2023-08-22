@@ -15,14 +15,13 @@
 
 ## Recomended VSCode Settings
 
-> To get the best experience with this theme, I recommend using the [Victor Mono](https://rubjo.github.io/victor-mono/) font and the following settings:
+> To get the best experience with this theme, I recommend using the [Victor Mono](https://rubjo.github.io/victor-mono/) font
 
-`Settings.json`
+To enable italics in the VSCode editor, add the following to your `Settings.json`:
 
 ```jsonc
 {
   "editor.fontFamily": "Victor Mono",
-  // only italicize comments (not enabled by default)
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
